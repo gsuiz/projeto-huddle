@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: cocogoose;
+    src: url(../font/Cocogoose-Pro-Regular-trial.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'open sans', sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    color:hsl(192, 100%, 9%);
+    overflow-x: hidden;
+}
+
+.clear{
+    clear: both;
+}
+
+.topo{
+    width: 90%;
+    margin:30px auto;
+    position: relative;
+}
+
+.topo img{
+    width: 45%;
+    max-width: 180px;
+}
+
+.topo input{
+    position: absolute;
+    right: 0;
+    background: none;
+    width: 110px;
+    height: 28px;
+    border-radius: 15px;
+    border: 2px solid hsl(321, 100%, 78%);
+    color:hsl(321, 100%, 78%) ;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+
+/* Estilização do header acima */
+
+.container-1{
+    width: 90%;
+    margin: 180px auto;
+    text-align: center;
+}
+
+.container-1 h2{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.container-1 p{
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+.container-1 input{
+    margin-bottom: 100px;
+    width: 180px;
+    height: 40px;
+    border-radius:20px;
+    border:none;
+    background:rgb(255, 82, 191);
+    box-shadow: 0 0 20px rgb(255, 82, 191, 0.3);
+    color: white;
+    font:700 0.8em 'open sans', sans-serif;
+}
+
+.container-1 input:hover{
+    background-color:rgb(212, 70, 160);
+}
+
+.container-1 img{
+    width: 90%;
+    display: block;
+}
+
+/* container-1 acima */
+
+.container-2{
+    width: 90%;
+    margin:auto;
+    text-align: center;
+}
+
+.container-2 .communities{
+    line-height: 50px;
+    margin-bottom: 100px;
+}
+
+.container-2 .communities h1{
+    font-size: 60px;
+}
+
+.container-2 .communities img{
+    width:30px;
+    margin-right: 117px
+}
+
+.container-2 .communities p{
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.container-2 .messages{
+    line-height: 50px;
+}
+
+.container-2 .messages h1{
+    font-size: 55px;
+}
+
+.container-2 .messages img{
+    width:28px;
+    margin-right: 126px
+}
+
+.container-2 .messages p{
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+/* container-2 acima */
+
+.container-3, .container-4, .container-5,.container-6{
+    width: 100%;
+    margin:50px auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.container-3,.container-5{
+    background-color: #f6fbff;
+}
+
+.wave-1,.wave-3{
+    width: 100vw;
+    position: relative;
+    top: 58px;
+}
+
+.wave-2, .wave-4{
+    width: 100vw;
+    position: relative;
+    bottom: 52px;
+}
+
+.wave-desk{
+    display: none;
+}
+
+.side-left, .side-right{
+    width: 90%;
+    margin: auto;
+} 
+
+.side-left img, .side-right img{
+    width: 80%;
+}
+
+.side-right h2,.side-left h2{
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.container-6 h1{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.container-6 input{
+    width: 180px;
+    height: 40px;
+    border-radius:20px;
+    border:none;
+    background:rgb(255, 82, 191);
+    box-shadow: 0 0 20px rgb(255, 82, 191, 0.3);
+    color: white;
+    font:700 0.8em 'open sans', sans-serif;
+}
+
+.container-6 input:hover{
+    background-color:rgb(212, 70, 160);
+}
+
+/* estilização do container 3,4,5,6/
+
+/* fim main */
+
+footer{
+    margin-top: 150px;
+    background-color: #00252e;
+    color: white;
+    padding: 50px 0 0 0;
+}
+
+.wave-footer{
+    width: 100vw;
+    position: relative;
+    top: 160px;
+}
+
+.side-enrollment{
+    width: 90vw;
+    margin: auto;  
+    font-size: 0.9em;
+}
+
+.side-enrollment h3{
+    font-size: 24px;
+    margin-bottom:20px;
+}
+
+.side-enrollment input{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    text-shadow: none;
+    border: transparent;
+    padding-left: 15px;
+}
+
+.side-enrollment input[type=submit]{
+    width: 50%;
+    border-radius: 5px;
+    float: right;
+    background-color:rgb(255, 82, 191) ;
+    color: white;
+    box-shadow: 0 0 20px rgb(255, 82, 191, 0.3);
+    color: white;
+    font:700 1em 'open sans', sans-serif;
+    cursor: pointer;
+}
+
+.side-enrollment input[type=submit]:hover{
+    background-color:rgb(212, 70, 160);
+}
+
+.side-contact{
+    width: 90vw;
+    margin:70px auto;  
+    margin-bottom: 0 ;  
+}
+
+.side-contact img:first-of-type{
+    filter: saturate(0);
+    width: 35px;
+    margin-right:5px ;
+}
+
+.side-contact span{
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.side-contact span:first-of-type{
+    font-size: 35px;
+    font-family: cocogoose, sans-serif;
+}
+
+.side-contact p{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.side-contact .icon{
+    margin-right: 15px;
+    vertical-align: -7%;
+}
+
+.side-contact .icons{
+    letter-spacing: 6px;
+    color: white;
+}
+
+.side-contact .icons a i{
+    font-size: 25px;
+    margin: 50px 0;
+    color: white;
+}
